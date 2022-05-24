@@ -23,20 +23,20 @@ const Layout = () => {
         <nav className='mt-10 mb-5'>
 
           <Link 
-          className={`${urlActual === '/home' ? 'text-gray-400' : 'text-white'} border-solid border-2 p-5 text-2xl block mt-4 rounded-lg hover:text-gray-400 text-center mb-2 hover:border-gray-400`}
-          to="/home">
+          className={`${urlActual === '/' ? 'text-gray-400' : 'text-white'} border-solid border-2 p-5 text-2xl block mt-4 rounded-lg hover:text-gray-400 text-center mb-2 hover:border-gray-400`}
+          to="/">
             Inicio
             </Link>
 
           <Link 
-          className={`${urlActual === '/home/cotizador' ? 'text-gray-400' : 'text-white'} border-solid border-2 p-5 text-2xl block mt-4 rounded-lg hover:text-gray-400 text-center mb-2 hover:border-gray-400`}
-          to="/home/cotizador">
+          className={`${urlActual === '/cotizador' ? 'text-gray-400' : 'text-white'} border-solid border-2 p-5 text-2xl block mt-4 rounded-lg hover:text-gray-400 text-center mb-2 hover:border-gray-400`}
+          to="/cotizador">
             Cotizador
             </Link>
 
           <Link 
-          className={`${urlActual === '/home/about' ? 'text-gray-400' : 'text-white'} border-solid border-2 p-5 text-2xl block mt-4 rounded-lg hover:text-gray-400 text-center mb-2 hover:border-gray-400`} 
-          to="/home/about">
+          className={`${urlActual === '/about' ? 'text-gray-400' : 'text-white'} border-solid border-2 p-5 text-2xl block mt-4 rounded-lg hover:text-gray-400 text-center mb-2 hover:border-gray-400`} 
+          to="/about">
             Nosotros
             </Link>
           
