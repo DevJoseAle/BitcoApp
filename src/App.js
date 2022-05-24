@@ -28,7 +28,7 @@ function App() {
           onReset={() => {window.location.href = '/home'}} >
             <Routes>
 
-              <Route path="/home" element={<Layout />}>
+              <Route path="/" element={<Layout/>}>
                 <Route index element={<Inicio/>}/>
     
                 <Route path="cotizador" element={<Cotizador/>}/>
